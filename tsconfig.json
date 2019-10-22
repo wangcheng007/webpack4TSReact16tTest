@@ -1,0 +1,41 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "es2015",
+        "jsx": "react",
+        "sourceMap": true,
+        "strict": true,
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true,
+        "moduleResolution": "node",
+        "baseUrl": ".",
+        "paths": {
+            "@common/*": [
+                "source/common/*"
+            ],
+            "@components/*": [
+                "source/components/*"
+            ],
+            "@views/*": [
+                "source/views/*"
+            ],
+            "@models/*": [
+                "source/models/*"
+            ],
+            "@services/*": [
+                "source/services/*"
+            ],
+            "@genre/*": [
+                "source/genre/*"
+            ]
+        }
+    },
+    "exclude": [
+        "dist",
+        "test",
+        "node_modules"
+    ],
+    "include": [
+       "**/*.js", "**/*.ts", "**/*.tsx"
+    ]
+}
